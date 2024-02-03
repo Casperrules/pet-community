@@ -1,4 +1,5 @@
 import React from "react";
+import SearchBar from "../components/search-bar/search-bar";
 
 const Main = () => {
   return (
@@ -21,6 +22,7 @@ const Main = () => {
           <div className="search-bar-title text-lg font-semibold text-left w-full md:p-2">
             Looking for something specific?
           </div>
+          <SearchBar />
         </div>
       </div>
     </div>
