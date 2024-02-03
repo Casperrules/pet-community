@@ -40,7 +40,7 @@ const SearchBar = () => {
       <div className="selectors flex justify-around w-full mt-2">
         <div className="location-selector mr-4 flex md:hidden border border-solid p-2 rounded-full">
           <select
-            className="outline-none w-full text-[#787878]"
+            className="outline-none w-full text-[#787878] bg-[#fff]"
             name="location"
           >
             <option value="anywhere">Anywhere</option>
@@ -54,7 +54,7 @@ const SearchBar = () => {
           <select
             name="category"
             id="category"
-            className="outline-none w-full text-[#787878]"
+            className="outline-none w-full text-[#787878] bg-[#fff]"
           >
             <option value="everything">Everything</option>
             <option value="food">Pet Food</option>

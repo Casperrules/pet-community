@@ -25,6 +25,7 @@ const Main = () => {
           <SearchBar />
         </div>
       </div>
+      <div className="some-product-stuff"></div>
     </div>
   );
 };
